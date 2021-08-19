@@ -23,15 +23,22 @@ h3{
     font-family: 'Poppins', sans-serif;
     text-align: center;
 }
+
 h4{
     font-size: 30px ;
-    font-weight:500;
+    font-weight:300;
     font-family: 'Poppins', sans-serif;
 }
 h5{
     font-size: 30px;
     font-weight: 400px;
     font-family: 'Poppins', sans-serif;
+}
+h6{
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
 }
 p{
     font-size: 16px;
@@ -419,6 +426,40 @@ li :hover{
     text-size-adjust: 10px;
     
 }
+.flexContainers {
+    display: flex;
+    padding: 60px 30px;
+  }
+  .flexContainers div {
+    width: 33%;
+    padding: 25px;
+  }
+  .flexContainers {
+    display: flex;
+    padding: 10px;
+    object-fit: fill;
+  }
+  .flexContainers div {
+    width: 33%;
+    padding: 25px;
+    object-fit: fill;
+  }
+  .flexContainers h3{
+    text-align: left;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+    text-align: left;
+}
+.skillsPics {
+    width: 90%;
+    padding: 25px;
+  }
+
+  .userFlow{
+    max-width: -webkit-fill-available;
+    object-fit: fill;
+  }
 
 /* jquery */
 #seeMore a{

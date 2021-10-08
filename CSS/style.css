@@ -48,7 +48,7 @@ p{
     text-align: left;
 }
 body, button, input {
-    letter-spacing: 1.4px;
+    letter-spacing: 1px;
   }
 /* HOMEPAGE-HEADER*/
 .body{
@@ -416,7 +416,7 @@ li :hover{
         transition: all 150ms linear;
 }
 #resume :hover{
-    background-color: #F59836;
+    color: #F59836;
     letter-spacing: 1px;
     box-shadow: 5px 40px -10px rgba(0,0,0,0.57);
     transition: all 0s ease 0s;
@@ -477,7 +477,7 @@ li :hover{
         transition: all 150ms linear;
 }
 #resume :hover{
-    background-color: #F59836;
+    color: #F59836;
     letter-spacing: 1px;
     box-shadow: 5px 40px -10px rgba(0,0,0,0.57);
     transition: all 0s ease 0s;

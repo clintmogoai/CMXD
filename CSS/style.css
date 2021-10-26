@@ -532,3 +532,54 @@ li :hover{
         font-size: 
         15px;
     }
+    .heroImg{
+        max-width: 100%;
+        background-size: cover;
+        background-repeat: no-repeat;
+        display: inline-block;
+        overflow: hidden;
+        position: relative;
+        text-align: right;
+    }
+    .heroContent{
+        position:absolute;
+        bottom: 100px;
+        text-align: left;
+        justify-content: ;
+        color: white;
+        padding: 20px;
+        align-items: 
+        align-content: flex-end;
+    }
+    .heroContent h4{
+        padding: 2px;
+        
+    
+    }
+    .heading{
+        max-width: 100%;
+        padding-top: -5px;
+        padding-bottom: 5px;
+        align-content: center;
+    }
+    .heroIMG{
+        max-width: 100%;
+    }
+    .flexContainers {
+        display: flex;
+        padding: 60px 30px;
+      }
+      .flexContainers div {
+        width: 33%;
+        padding: 25px;
+      }
+      .flexContainers {
+        display: flex;
+        padding: 10px;
+        object-fit: fill;
+      }
+      .flexContainers div {
+        width: 33%;
+        padding: 25px;
+        object-fit: fill;
+      }
